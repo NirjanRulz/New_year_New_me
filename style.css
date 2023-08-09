@@ -33,6 +33,12 @@
     border-radius: 5px;
     margin-top: 32px;
     padding: 22px;
+    transition: all 0.5s ease-out;
+}
+.btn-primary:hover{
+    color: #FFF;
+    background-color: #005FAC;
+    border: 1px solid white;
 }
 
 /* middle1 style */
@@ -116,6 +122,12 @@ div ul li{
     border-radius: 5px;
     padding: 22px;
     margin-top: 24px;
+    transition: all 0.5s ease-out;
+}
+.btn-call:hover{
+    color: #FFF;
+    background-color: #005FAC;
+    border: 1px solid white;
 }
 .banner{
     background-image: url(./images/gradient1.png), url(./images/watch.png);
@@ -123,4 +135,63 @@ div ul li{
     background-repeat: no-repeat;
     margin: 130px 370px 130px;
     padding: 50px;
+}
+
+/* footer style */
+
+.footer{
+    background-color: #151414;
+    padding: 100px;
+}
+.footer-div{
+    display: flex;
+    gap: 50%;
+}
+.footer-img{
+    display: flex;
+    gap: 20px;
+    margin-top: 24px;
+}
+.footer-details h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.footer-details p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+}
+.footer-email-phone{
+    margin-top: 24px;
+}
+.subscribe{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+input[type=email]{
+    border: solid 1px #FFF;
+    border-radius: 8px;
+    padding: 20px;
+    width: 325px;
+    background-color: #151414;
+    font-size: 18px;
+}
+.btn-subscribe{
+    text-align: center;
+    color: #FFF;
+    background-color: #005FAC;;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 16px;
+    padding: 20px;
+    transition: all 0.5s ease-out;
+}
+.btn-subscribe:hover{
+    color: #005FAC;
+    background-color: #FFF;
+    border: 1px solid #005FAC;
 }
