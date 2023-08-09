@@ -34,3 +34,63 @@
     margin-top: 32px;
     padding: 22px;
 }
+.middle1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 140px;
+}
+.middle1-heading{
+    color: var(--dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.middle1-description{
+    color: var(--dark-02, #444343);
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.middle1-instruction{
+    margin-top: 370px;
+}
+.middle1-img{
+    margin-top: 140px;
+}
+div ul li{
+    font-size: 16px;
+    line-height: 30px;
+    list-style: none;
+    list-style: url(./images/icons/check.png);
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.my-plans-heading{
+    text-align: center;
+    color: var(--dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 214px;
+    margin-bottom: 50px;
+}
+.plans-name h3{
+    text-align: center;
+    color: var(--dark-01, #151414);
+    font-size: 30px;
+    font-weight: 700;
+}
+.plans-name p{
+    margin-top: 16px;
+    text-align: center;
+    color: var(--dark-03, #737272);
+    font-size: 25px;
+    font-weight: 500;
+}
+.plans-name img{
+    margin: 0;
+    padding-left: 30%;
+}
