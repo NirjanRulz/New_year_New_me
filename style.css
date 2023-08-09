@@ -34,6 +34,9 @@
     margin-top: 32px;
     padding: 22px;
 }
+
+/* middle1 style */
+
 .middle1{
     display: flex;
     justify-content: center;
@@ -64,6 +67,9 @@ div ul li{
     list-style: none;
     list-style: url(./images/icons/check.png);
 }
+
+/* plans style */
+
 .plans{
     display: flex;
     justify-content: center;
@@ -93,4 +99,28 @@ div ul li{
 .plans-name img{
     margin: 0;
     padding-left: 30%;
+}
+
+/* banner style */
+
+.banner h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.btn-call{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 22px;
+    margin-top: 24px;
+}
+.banner{
+    background-image: url(./images/gradient1.png), url(./images/watch.png);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    margin: 130px 370px 130px;
+    padding: 50px;
 }
